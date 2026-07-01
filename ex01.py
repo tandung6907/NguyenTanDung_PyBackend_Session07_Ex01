@@ -47,7 +47,6 @@ GIẢI PHÁP SỬA LỖI
 """
 
 from fastapi import FastAPI, HTTPException
-from fastapi.testclient import TestClient
 from pydantic import BaseModel
 
 app = FastAPI()
